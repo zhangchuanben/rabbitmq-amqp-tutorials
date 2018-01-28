@@ -7,10 +7,12 @@ mvn clean package
 
 ---
 ![image](http://www.rabbitmq.com/img/tutorials/python-one.png)
+![image](http://www.rabbitmq.com/img/tutorials/prefetch-count.png)
+
 ## 运行
 ### 发送消息
-> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=hello-world,sender
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=work-queues,sender
 
 ### 接收消息
-> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=hello-world,receiver
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=work-queues,receiver
 
