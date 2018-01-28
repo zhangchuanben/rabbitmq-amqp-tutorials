@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: usage_message
+  application:
+    name: rabbitmq-tutorials
+logging:
+  level:
+    org: ERROR
+tutorial:
+  client:
+    duration: 10000
