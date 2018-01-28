@@ -40,7 +40,6 @@ mvn clean package
 # 第四章 Routing
 ---
 ![image](http://www.rabbitmq.com/img/tutorials/direct-exchange.png)
-
 ![image](http://www.rabbitmq.com/img/tutorials/direct-exchange-multiple.png)
 ![image](http://www.rabbitmq.com/img/tutorials/python-four.png)
 ### 发送消息
