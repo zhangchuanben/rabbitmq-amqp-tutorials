@@ -48,3 +48,15 @@ mvn clean package
 
 ### 接收消息
 > java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=routing,receiver --tutorial.client.duration=60000
+
+# 第五章 Topics
+---
+![image](http://www.rabbitmq.com/img/tutorials/python-five.png)
+
+### 发送消息
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=topics,sender 
+--tutorial.client.duration=60000
+
+### 接收消息
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=topics,receiver 
+--tutorial.client.duration=60000
