@@ -3,6 +3,8 @@
 > git clone https://github.com/zhangchuanben/rabbitmq-amqp-tutorials.git
 # 打包 
 mvn clean package
+# 按步骤查看
+> git checkout [tagname]
 # 第一章 "Hello World"
 
 ---
