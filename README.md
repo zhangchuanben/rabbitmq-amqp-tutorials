@@ -60,3 +60,13 @@ mvn clean package
 ### 接收消息
 > java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=topics,receiver 
 --tutorial.client.duration=60000
+
+# 第六章 RPC
+---
+![image](http://www.rabbitmq.com/img/tutorials/python-six.png)
+
+### Server
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=rpc,server
+
+### Client
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=rpc,client
