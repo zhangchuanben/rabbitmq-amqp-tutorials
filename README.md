@@ -36,3 +36,15 @@ mvn clean package
 
 ### 接收消息
 > java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=pub-sub,receiver --tutorial.client.duration=60000
+
+# 第四章 Routing
+---
+![image](http://www.rabbitmq.com/img/tutorials/direct-exchange.png)
+
+![image](http://www.rabbitmq.com/img/tutorials/direct-exchange-multiple.png)
+![image](http://www.rabbitmq.com/img/tutorials/python-four.png)
+### 发送消息
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=routing,sender --tutorial.client.duration=60000
+
+### 接收消息
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=routing,receiver --tutorial.client.duration=60000
