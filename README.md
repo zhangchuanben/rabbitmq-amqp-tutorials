@@ -13,3 +13,4 @@ mvn clean package
 
 ### 接收消息
 > java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=hello-world,receiver
+
