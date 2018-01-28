@@ -25,3 +25,14 @@ mvn clean package
 
 ### 接收消息
 > java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=hello-world,receiver
+
+# 第三章 Publish/Subscribe
+---
+![image](http://www.rabbitmq.com/img/tutorials/python-three-overall.png)
+
+### 发送消息
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=pub-sub,sender 
+    --tutorial.client.duration=60000
+
+### 接收消息
+> java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=pub-sub,receiver --tutorial.client.duration=60000
